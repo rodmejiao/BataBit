@@ -32,3 +32,73 @@ html{
     font-family: "DM Sans", sans-serif;
 }
 
+header{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 32rem;
+    text-align: center;
+    height: 33.4rem;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+
+}
+
+
+header img{
+    width: 50%;
+    max-width: 17.5rem;
+}
+
+
+.header--title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 90%;
+    min-height: 21.8rem;  
+}
+
+.header--title-container h1{
+    margin-bottom: 2.4rem;
+    font-size:2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--just-white);
+   
+}
+
+.header--title-container p{
+   font-size: 1.4rem;
+   font-weight: 500;
+   line-height: 1.8rem;
+   color: var(--soft-orange);
+   display: block;
+}
+
+.header--button{
+   
+    position: absolute; 
+    top: calc(21.8rem + 2.4rem);
+    left: calc(50% - 23rem/2);
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: var(--warm-black);
+    text-decoration: none;
+    background-color: var(--off-white);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 0.5rem;
+    
+}
+
+.header--button span::before{
+
+    content: url('./assets/iconos/flecha_abajo.svg');
+    padding: 0 1rem;
+}
