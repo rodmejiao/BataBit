@@ -255,6 +255,7 @@ color: #757575;
     width: 100%;
     min-width: 32rem;
     background-color: var(--warm-black);
+    padding-bottom: 5rem;
 }
 
 
