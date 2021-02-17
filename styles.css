@@ -249,10 +249,11 @@ color: #757575;
 
 
 .main-beneficit-container{
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    min-width: 32rem;
     background-color: var(--warm-black);
 }
 
