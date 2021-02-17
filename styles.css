@@ -449,17 +449,26 @@ color: #000000;
 }
 
 .main-plan-item a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 0.2rem solid #F7931A;
     border-radius: 0.4rem;
     font-weight: 700;
     font-size: 1.4rem;
-    line-height: 1.8rem;
-    padding: 1.5rem;
+    line-height: 0.8rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.8rem;
     background-color: var(--off-white);
     color: var(--warm-black);
     text-decoration: none;
     min-width: 15.5rem;
     margin-top: 1.6rem;
     margin-bottom: 2.4rem;
+    
 }
 
+.main-plan-item a span::before{
+
+    content: url(./assets/iconos/Flecha-derecha-color.svg);
+}
