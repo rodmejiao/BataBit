@@ -341,3 +341,125 @@ color: #757575;
     background-image: url('./assets/iconos/check.svg');
 }
  
+
+.main-plan-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 32rem;
+    padding-bottom: 5rem;
+
+}
+
+.main-plan-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    text-align: center;
+    width: 70%;
+    max-width: 25rem;
+    background-color: var(--just-white);
+    box-shadow: 0 0.4rem 0.8rem rgba(89, 73, 30, 0.16);
+    border-radius: 0.8rem;
+}
+
+.main-plan-title{
+    width: 90%;
+    text-align: center;
+}
+
+.main-plan-title h2{
+padding-top: 8.2rem;
+font-size: 2.4rem;
+line-height: 2.6rem;
+font-weight: 700;
+color: var(--warm-black);
+
+}
+
+.main-plan-title p{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #757575;
+    padding-top: 2.4rem;
+}
+
+.main-plan-type p{
+    display: inline-block;
+    padding: 0.8rem;
+    border-radius: 0.8rem;
+    font-family: var(--Secundary-font);
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: var(--just-white);
+    background-color: var(--bitcoin-orange); 
+    margin-top: -0.8rem;
+}
+
+
+.main-plan-type__price {
+    position: relative;
+    margin-top: 0.8rem;
+}
+
+.main-plan-type__price p{
+    font-family: var(--Secundary-font);
+    font-size: 5.2rem;
+    line-height: 6.2rem;
+    font-weight: 700;
+    margin-left: 0.9rem;
+}
+
+.main-plan-type__price p span{
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+    position: absolute;
+    top: 0.9rem;
+    left: 0;
+}
+
+
+
+.main-plan-item h3{
+margin-top: 1.6rem;
+font-weight: 500;
+font-size: 1.4rem;
+line-height: 1.8rem;
+color: #000000;
+
+}
+
+.main-plan-item .main-plan-item_detail{
+    
+    display: inline-block;
+    width: 70%;
+    margin-top: 0.9rem;
+    font-family: var(--Secundary-font);
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #757575;
+}
+
+.main-plan-item a {
+    border: 0.2rem solid #F7931A;
+    border-radius: 0.4rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    padding: 1.5rem;
+    background-color: var(--off-white);
+    color: var(--warm-black);
+    text-decoration: none;
+    min-width: 15.5rem;
+    margin-top: 1.6rem;
+    margin-bottom: 2.4rem;
+}
+
