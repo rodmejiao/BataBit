@@ -482,8 +482,7 @@ color: #000000;
     align-items: center;
     width: 100%;
     min-width: 32rem;
-
-    padding-bottom: 5rem;
+    padding-bottom: 10rem;
 }
 
 .main-question-container h2{
