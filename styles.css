@@ -519,3 +519,39 @@ margin-bottom: 3rem;
     content: url(./assets/iconos/flecha_abajo.svg);
     margin-left: 2rem;
  }
+
+ footer{
+     background-color: var(--bitcoin-orange);
+     width: 100%;
+     min-width: 320px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ .footer-container{
+     padding-top: 3rem;
+     padding-bottom: 1rem;
+    width: 70%;
+    max-width: 32rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+.item-footer p{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: var(--just-white);
+    padding: 0.7rem 0;
+}
+
+ .image-fotter{
+     background-image: url('./assets/imagenes/logopie_texto.svg');
+     width: 7.4rem;
+     height: 6rem;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
