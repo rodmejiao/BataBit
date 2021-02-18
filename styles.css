@@ -259,6 +259,7 @@ color: #757575;
 }
 
 
+
 .main-beneficit-container .beneficit-explication{
     width: 80%;
     padding-bottom: 3rem;
@@ -474,3 +475,47 @@ color: #000000;
 
     content: url(./assets/iconos/Flecha-derecha-color.svg);
 }
+
+.main-question-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 32rem;
+
+    padding-bottom: 5rem;
+}
+
+.main-question-container h2{
+font-weight: 700;
+font-size: 2.4rem;
+line-height: 2.6rem;
+text-align: center;
+width: 90%;
+color: var(--warm-black);
+margin-top: 2.4rem;
+margin-bottom: 3rem;
+}
+
+.main-question-container .question-item{
+    width: 90%;
+    max-width: 32rem;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main-question-container .question-item p{
+   font-weight: 500;
+   font-size: 1.4rem;
+   line-height: 1.8rem;
+   color: #757575;
+   padding-top: 1.5rem;
+   width: 85%;
+}
+
+.main-question-container .question-item span{
+    content: url(./assets/iconos/flecha_abajo.svg);
+    margin-left: 2rem;
+ }
