@@ -436,6 +436,16 @@ color: #757575;
     border-radius: 0.8rem;
 }
 
+.no-recomendado .main-plan-type{
+    visibility: hidden;
+    }
+
+.no-recomendado p,a{
+color:var(--grey) ;
+}
+
+
+
 .main-plan-title{
     width: 90%;
     text-align: center;
@@ -537,10 +547,24 @@ color: #000000;
     
 }
 
-.main-plan-item a span::before{
+.no-recomendado .disabled {
+    color: var(--grey);
+border-color:#BABABA;
+}
+
+
+.main-plan-item a .enabledArrow::before{
 
     content: url(./assets/iconos/Flecha-derecha-color.svg);
 }
+
+.main-plan-item a .disabledArrow::before{
+
+    content: url(./assets/iconos/flecha_derecha_deshabilitda.svg);
+}
+
+
+
 
 .main-question-container{
     display: flex;
