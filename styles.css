@@ -345,6 +345,28 @@ color: #757575;
 }
  
 
+.bitcoin-image-container{
+    background-image: url('./assets/imagenes/bitcoinFrame2X.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-width: 32rem;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.bitcoin-image-container h2{ 
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    padding-top:6.4rem ;
+    color: var(--just-white);
+}
+
+
 .main-plan-container{
     width: 100%;
     display: flex;
