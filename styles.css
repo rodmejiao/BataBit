@@ -283,6 +283,13 @@ color: #757575;
     color: #808080;
 } 
 
+.container-item{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
 .main-beneficit-container .beneficit-item{
     min-width: 25rem;
     width: 80%;
@@ -643,4 +650,25 @@ margin-bottom: 3rem;
      height: 6rem;
      background-position: center;
      background-repeat: no-repeat;
+ }
+
+ 
+ @media only screen and (min-width: 768px){
+
+    .container-item{
+        max-width: 72rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .main-beneficit-container .beneficit-item {
+
+        margin: 1.6rem;
+    }
+
+    .footer-container{
+        max-width: 76rem;
+    }
+
  }
