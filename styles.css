@@ -671,6 +671,10 @@ margin-bottom: 3rem;
         max-width: 76rem;
     }
 
+    .image-fotter {
+        background-size: contain;
+    }
+
  }
 
  @media only screen and (min-width: 1024px){
