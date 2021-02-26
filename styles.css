@@ -636,12 +636,13 @@ margin-bottom: 3rem;
     align-items: center;
  }
 
-.item-footer p{
+.item-footer li{
     font-size: 1.4rem;
     line-height: 1.8rem;
     font-weight: 500;
     color: var(--just-white);
     padding: 0.7rem 0;
+    list-style: none;
 }
 
  .image-fotter{
@@ -685,7 +686,7 @@ margin-bottom: 3rem;
     flex-direction: row;
 }
 
-.item-footer p{
+.item-footer li{
 margin-right: 3rem;
 cursor: pointer;
 }
